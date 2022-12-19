@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: rgb(43, 43, 43);
+    font-family: Calibri;
+    -webkit-user-drag: none;
+}
+body{
+    background: rgb(251, 246, 255);
+}
