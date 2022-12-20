@@ -1,31 +1,33 @@
 //Components Imports
 import Layout from "../components/Layout"
-import SelectVariants from "../components/materialUI/SelectVariants"
+import ActionAreaCard from "../components/materialUI/ActionAreaCard"
 
-//TODO Cambiar dinamicamente el contenido de los Select
+import prevImgZorrito from "../public/Zorrito.jpg"
 
 export default function Tools () {
   return (
     <Layout>
-      <div className="selectores">
-        <SelectVariants 
-          selectName='Materia'
-          options={[
-            'Otros',
-            'Algebra Lineal',
-          ]}
-        />
-        <SelectVariants 
-          selectName='Herramienta'
-          options={['Matrices']}
-        />
-      </div>
-      <style jsx>{`
-        .selectores{
-          display: flex;
-          justify-content: center;
-        }
-      `}</style>
+      <ActionAreaCard 
+        cardName="Matrices"
+        infoData="Obtener determinantes y Operciones entre Matrices"
+        imgComponent={prevImgZorrito}
+      />
+      <ActionAreaCard 
+        cardName="Asigandor de Grupos"
+        infoData=""
+      />
+      <ActionAreaCard 
+        cardName="Asigandor de Grupos"
+        infoData=""
+      />
+      <ActionAreaCard 
+        cardName="Asigandor de Grupos"
+        infoData=""
+      />
+      <ActionAreaCard 
+        cardName="Asigandor de Grupos"
+        infoData=""
+      />
     </Layout>
   )
 }
