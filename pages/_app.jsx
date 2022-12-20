@@ -1,18 +1,18 @@
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
-
 import '../styles/global.css'
+import "katex/dist/katex.min.css";
+
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 export default function ({Component, pageProps}) {
-    const theme = createTheme({
-        palette: {
-          primary: purple,
-        },
-      })
     return (
         <div>
-            
-            <ThemeProvider theme={theme}>
+            <ThemeProvider theme={darkTheme}>
                 <Component {...pageProps}/>
             </ThemeProvider>
         </div>

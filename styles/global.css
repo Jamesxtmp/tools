@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    color: rgb(43, 43, 43);
-    -webkit-user-drag: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 body{
-    background: rgb(251, 246, 255);
+    color: white;
+    background-color: rgb(27, 27, 27);
 }
