@@ -32,7 +32,7 @@ export default function Matriz({values, type = 'p', display = 'block'}) {
     mathFill += `\\end{${type}matrix}`
 
 
-    //Renderizado condicinal segun el dsplay
+    //Renderizado condicinal segun el display
     if(display != 'block'){
         return(
             <>

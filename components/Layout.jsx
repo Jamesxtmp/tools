@@ -5,7 +5,11 @@ export default function Layout ({children}) {
     return (
         <div>
             <Navbar />
-            <Container sx={{ display:'flex', justifyContent: "space-around",  flexWrap: "wrap" }} >
+            <Container sx={{ 
+                display:'flex',
+                justifyContent: "space-around",
+                flexWrap: "wrap"
+                }} >
                 {children}
             </Container>
             <style></style>

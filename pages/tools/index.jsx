@@ -1,8 +1,8 @@
 //Components Imports
-import Layout from "../components/Layout"
-import ActionAreaCard from "../components/materialUI/ActionAreaCard"
+import Layout from "../../components/Layout"
+import ActionAreaCard from "../../components/materialUI/ActionAreaCard"
 
-import prevImgZorrito from "../public/Zorrito.jpg"
+import prevImgZorrito from "../../public/Zorrito.jpg"
 
 export default function Tools () {
   return (
@@ -11,6 +11,7 @@ export default function Tools () {
         cardName="Matrices"
         infoData="Obtener determinantes y Operciones entre Matrices"
         imgComponent={prevImgZorrito}
+        cardHref="/matrices"
       />
       <ActionAreaCard 
         cardName="Asigandor de Grupos"
