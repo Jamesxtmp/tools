@@ -1,11 +1,11 @@
 import Layout from "../../components/Layout";
-import KeyboardSimple from "../../components/materialUI/KeyboardSimple";
+import KeyboardGrid from "../../components/matematicas/KeyboardGrid";
 // import {BlockMath, InlineMath} from "react-katex"
 
 export default function matrices() {
     return (
         <Layout>
-            <KeyboardSimple></KeyboardSimple>
+            <KeyboardGrid></KeyboardGrid>
             {/* { console.log( mfe ) } */}
 
             {/* <BlockMath math={`
