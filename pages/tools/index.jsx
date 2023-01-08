@@ -9,25 +9,21 @@ export default function Tools () {
     <Layout>
       <ActionAreaCard 
         cardName="Matrices"
-        infoData="Obtener determinantes y Operciones entre Matrices"
+        infoData="Trabajando en ello..."
         imgComponent={prevImgZorrito}
         cardHref="/matrices"
       />
       <ActionAreaCard 
         cardName="Asigandor de Grupos"
-        infoData=""
+        infoData="Proximamente"
       />
       <ActionAreaCard 
-        cardName="Asigandor de Grupos"
-        infoData=""
+        cardName="Calculadora de Tiempo"
+        infoData="Proximamente"
       />
       <ActionAreaCard 
-        cardName="Asigandor de Grupos"
-        infoData=""
-      />
-      <ActionAreaCard 
-        cardName="Asigandor de Grupos"
-        infoData=""
+        cardName="Conversor de Bases Nuemericas"
+        infoData="Proximamente"
       />
     </Layout>
   )
