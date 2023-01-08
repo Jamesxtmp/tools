@@ -47,10 +47,8 @@ export default function matrices() {
 
   return (
     <Layout>
-      <InlineMath math={`${keysOut.join("")}`} />
-      <div>{`${cursor}`}</div>
-      <div>{`${keysOut}`}</div>
-      <KeyboardGrid inputs={2} funcReturn={wriringKeys}></KeyboardGrid>
+      <input type="text" />
+      <KeyboardGrid/>
       {/* <BlockMath math={`
             \\begin{pmatrix}
                 1 & 5 & 0\\\\
